@@ -6,7 +6,7 @@ const h = canvas.height = "440";
 const ballLightGreen={
     x:200,
     y:100,
-    v:2,
+    v:200,
     r: 20,
     color:"lightgreen",
     draw:function(){
