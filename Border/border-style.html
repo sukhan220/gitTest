@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Style</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            width: 300px;
+            height: auto;
+            padding: 10px;
+            
+            margin:auto;
+            position: absolute;
+            inset: 0;
+            border-width: 5px;
+            border-color: brown;
+            /* top-right-bottom-left style position */
+            border-left-style: dotted;
+            border-top-style:dashed ;
+            border-right-style:double;
+            border-bottom-style: solid;
+        
+
+        }
+        .main div{
+            width: 250px;
+            height: 30px;
+            border-width: 10px;
+            border-color:yellow ;
+            margin: 12px;
+            padding: 20px;
+        }
+        /* 8 type of border styler*/
+        .solid{
+            border-style: solid;
+        }
+        .dotted{
+            border-style: dotted;
+        }
+        .dashed{
+            border-style: dashed;
+        }
+        .double{
+            border-style: double;
+        }
+        .groove{
+            border-style:groove;
+        }
+        .inset{
+            border-style: inset;
+        }
+        .outset{
+            border-style: outset;
+        }
+        .ridge{
+            border-style: ridge;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="solid"> Solid</div>
+        <div class="dotted"> dotted</div>
+        <div class="dashed">Dased</div>
+        <div class="double">Double</div>
+        <div class="groove">Groove</div>
+        <div class="inset">inset</div>
+        <div class="outset">outset</div>
+        <div class="ridge">ridge</div>
+    </div>
+
+    
+</body>
+</html>
