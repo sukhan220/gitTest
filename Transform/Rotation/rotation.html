@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Ruler with Scale Marker</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        .box{
+            margin: auto;
+            width: 100px;
+            height: 100px;
+            border: 2px solid green;
+            background-image: url("./arrow.png");
+            background-position: center;
+            background-size: cover;
+            position: absolute;
+            inset: 0;
+            opacity: 0.5;
+            animation: move 5s linear forwards;
+           
+
+
+        }
+
+
+        @keyframes move{
+            to{
+                transform: rotate(-1turn);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+     
+    <svg id="clockSVG" >
+        <line x1="250" y1="0" x2="250" y2="500" stroke-width="1" stroke="black"></line>
+        <line x1="0" y1="250" x2="500" y2="250" stroke-width="1" stroke="black"></line>
+    </svg>
+    <!-- এক্সট্রা বক্স হল শুরু সাইজ কত সেটা জানার জন্য -->
+    <div class="box">
+       
+    </div>
+
+  
+
+   
+</body>
+<script src="./script.js"></script>
+</html>

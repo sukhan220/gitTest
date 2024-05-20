@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#rulers_and_block{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+}
+
+/* CSS styles for rulers and block */
+.ruler_top, .ruler_left {
+    position: relative;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    
+}
+.ruler_top{
+    left: 14px;
+}
+
+.block {
+    position: absolute;
+    background-color: lightblue;
+    border: 1px solid #ccc;
+}
+
+      /* Marker style */
+      .marker {
+        position: absolute;
+        width: 2px; /* Adjust width for the marker */
+        height: 10px; /* Adjust height for the marker */
+        background-color: rgb(25, 17, 17);
+    }
+
+/* Number style */
+.number {
+    position: absolute;
+    font-size: 10px;
+    color: rgb(43, 92, 135);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: aliceblue;
+    
+   
+}
