@@ -1,11 +1,6 @@
+@import url(./artboard.css);
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-#art-board{
-    width: 500px;
-    height: 400px;
-    background-color: rgb(170, 184, 187);
 }
